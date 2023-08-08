@@ -1,0 +1,227 @@
+{
+  "users": [
+    {
+      "email": "admin@admin.com",
+      "password": "admin",
+      "role": "admin",
+      "name": "admin",
+      "id": 1
+    },
+    {
+      "email": "admin@newadmin.com",
+      "password": "$2a$10$DproCTxIBUCz2HFQ3tR3TuU6Xvvr00RfZyQVVfkrj/tT5Hra2F3Xi",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Tomato sauce",
+      "price": 20,
+      "totalOrder": 2000,
+      "stock": 1200,
+      "totalSales": 200,
+      "category": "Food",
+      "id": 1
+    },
+    {
+      "name": "Chili sauce",
+      "price": "30",
+      "totalOrder": 2000,
+      "stock": 1190,
+      "totalSales": 200,
+      "category": "Food",
+      "id": 2
+    },
+    {
+      "name": "Potato chips",
+      "price": 20,
+      "totalOrder": 2000,
+      "stock": 900,
+      "totalSales": 2600,
+      "category": "Food",
+      "id": 3
+    },
+    {
+      "name": "Coke",
+      "price": 30,
+      "totalOrder": 4040,
+      "stock": 1400,
+      "totalSales": 200,
+      "category": "Drinks",
+      "id": 4
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Assignment 1 - Implement Debounce Function",
+      "position": 1,
+      "department": "",
+      "salary": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "doj": "",
+      "sales-per-month": 12
+    }
+  ],
+  "suppliers": [
+    {
+      "supplierName": "Supplier A",
+      "contactName": "John Doe",
+      "email": "john@supplier.com",
+      "phone": "012345678",
+      "address": "Dhaka",
+      "id": 1
+    },
+    {
+      "supplierName": "Supplier B",
+      "contactName": "Jane Doe",
+      "email": "janedoe@suppplierb.com",
+      "phone": "0123981232",
+      "address": "Dhaka",
+      "id": 2
+    }
+  ],
+  "customers": [
+    {
+      "clientName": "Client A",
+      "contactName": "Jake",
+      "email": "jake@gmail.com",
+      "phone": "+880134253323",
+      "address": "Dhaka",
+      "id": 1
+    },
+    {
+      "clientName": "Client B",
+      "contactName": "Jamie",
+      "email": "jamie@gmail.com",
+      "phone": "0125342343",
+      "address": "Dhaka",
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "createDate": "2023-08-07",
+      "office": "MGM",
+      "receiveDate": "2023-08-31",
+      "shippingAddress": "Khulna",
+      "category": "Food",
+      "productId": 1,
+      "quantity": "500",
+      "client": "Client B",
+      "sellingPrice": "2",
+      "vat": "2",
+      "isApproved": "Canceled",
+      "totalPrice": 1020,
+      "id": 1
+    },
+    {
+      "createDate": "2023-08-07",
+      "office": "MGM",
+      "receiveDate": "2023-08-23",
+      "shippingAddress": "Ctg",
+      "category": "Food",
+      "productId": 3,
+      "quantity": "300",
+      "client": "Client A",
+      "sellingPrice": "8",
+      "vat": 0,
+      "isApproved": "Approved",
+      "totalPrice": 2400,
+      "id": 2
+    },
+    {
+      "createDate": "2023-08-08",
+      "office": "MGM",
+      "receiveDate": "2023-08-30",
+      "shippingAddress": "Dhaka",
+      "category": "Food",
+      "productId": 1,
+      "quantity": "5",
+      "client": "Client A",
+      "sellingPrice": "2",
+      "vat": 0,
+      "isApproved": false,
+      "totalPrice": 10,
+      "id": 3
+    },
+    {
+      "createDate": "2023-08-08",
+      "office": "MGM",
+      "receiveDate": "2023-08-10",
+      "shippingAddress": "ghk",
+      "category": "Food",
+      "productId": 2,
+      "quantity": "10",
+      "client": "Client B",
+      "sellingPrice": 0,
+      "vat": 0,
+      "isApproved": "Approved",
+      "totalPrice": 0,
+      "id": 4
+    }
+  ],
+  "purchases": [
+    {
+      "createDate": "2023-08-01",
+      "office": "MGM",
+      "receiveDate": "",
+      "shippingAddress": "uttara",
+      "category": "Food",
+      "productId": 1,
+      "quantity": "200",
+      "supplier": "Supplier A",
+      "sellingPrice": "3",
+      "vat": "2",
+      "isApproved": "Approved",
+      "totalPrice": 612,
+      "id": 1
+    },
+    {
+      "createDate": "2023-08-01",
+      "office": "MGM",
+      "receiveDate": "2023-08-31",
+      "shippingAddress": "Dhaka",
+      "category": "Food",
+      "productId": 2,
+      "quantity": "100",
+      "supplier": "Supplier A",
+      "sellingPrice": "8",
+      "vat": "3",
+      "isApproved": "Canceled",
+      "totalPrice": 824,
+      "id": 2
+    },
+    {
+      "createDate": "2023-08-01",
+      "office": "MGM",
+      "receiveDate": "2023-08-26",
+      "shippingAddress": "Khulna",
+      "category": "Drinks",
+      "productId": 4,
+      "quantity": "200",
+      "supplier": "Supplier A",
+      "sellingPrice": "10",
+      "vat": "2",
+      "isApproved": "Approved",
+      "totalPrice": 2040,
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Food",
+      "products": []
+    },
+    {
+      "id": 2,
+      "name": "Drinks",
+      "products": []
+    },
+    {
+      "id": 3,
+      "name": "Food",
+      "products": []
+    }
+  ]
+}
