@@ -49,6 +49,15 @@
       "totalSales": 200,
       "category": "Drinks",
       "id": 4
+    },
+    {
+      "name": "Milk",
+      "price": "20",
+      "totalOrder": "100",
+      "stock": "100",
+      "totalSales": "100",
+      "category": "Drinks",
+      "id": 5
     }
   ],
   "employees": [
